@@ -1,0 +1,59 @@
+<html>
+    <head>
+        <meta charset="uft-"/>
+        <title>Formulario</title>
+        <link rel="stylesheet" href="estilosformualrio.css">
+    </head>
+    <body>
+       <h1>Formulario de Contacto</h1>
+       <form action="trabajo_grupo.html" method="POST" name="formulario_newsletter">
+            <fieldset>
+                <legend>Datos obligatorios.</legend>
+                Nombre: <br />
+                    <input type="text" name="nombre"><br />
+                Apellidos: <br />
+                    <input type="text" name="apellidos"><br />
+                email: <br />
+                    <input type="text" name="email"><br />
+                Contraseña: <br />
+                    <input type="password" name="pass"><br />
+                Confirmar contraseña: <br />
+                    <input type="password" name="confirm_pass"><br />
+                <br/>
+                Sexo:<br/>
+                <input type="radio" name="sexo" value="Hombre" checked="checked">Hombre.<br/>
+                <input type="radio" name="sexo" value="Mujer">Mujer.
+                <br/>
+            </fieldset>
+            <fieldset>
+                <legend>Datos opcionales.</legend>
+                    Razones por las que quieres asistir a nuestras reuniones:<br/>
+                    <input type="checkbox" name="razones" value="Creo que tengo un problema serio con el alcohol.">Creo que tengo un problema serio con el alcohol.<br/>
+                    <input type="checkbox" name="razones" value="Quiero prevenir posibles futuros problemas con el alcohol.">Quiero prevenir posibles futuros problemas con el alcohol.<br/>
+                    <input type="checkbox" name="razones" value="Creo que estoy empezando a tener cierta dependencia del alcohol.">Creo que estoy empezando a tener cierta dependencia del alcohol.<br/>
+                    <input type="checkbox" name="razones" value="Tengo dependencia de grado medio al alcohol.">Tengo dependencia de grado medio al alcohol.<br/>
+                    <input type="checkbox" name="razones" value="Tengo curiosidad por ver como es la dinámica de las charlas.">Tengo curiosidad por ver como es la dinámica de las charlas.<br/>
+                    <br/>
+                    ¿Cómo llegaste a nuesetra página web?<br/>
+                    <select>
+                        <optgroup label="Recomendado">
+                            <option>Amigos.</option>
+                            <option>Familiares.</option>
+                            <option>Otros.</option>
+                        </optgroup>
+                        <optgroup label="Casualiad">
+                            <option>Navegando por internet.</option>
+                            <option>Mirando otras páginas de ayuda.</option>
+                            <option>Ya estaba abierta la página.</option>
+                        </optgroup>
+                    </select>
+                    <br/><br/>
+                    ¿Tienes alguna recomendación para que mejoremos nuestro contenido?<br/>
+                    <textarea name="mensaje" rows="5" cols="30">Escriba aquí.</textarea>
+                    <br/>
+                    <input type="submit" value="Enviar"><br/>
+                    <input type="reset" value="Borrar">
+            </fieldset>
+        </form>
+    </body>
+</html>

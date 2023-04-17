@@ -1,0 +1,58 @@
+
+html{
+  font-family: 'Montserrat', Arial, sans-serif;
+}
+body{
+  background: #F2F3EB;
+}
+button{
+  overflow: visible;
+}
+button, input, select, textarea{
+  color: #5A5A5A;
+  font: inherit;
+  margin: 0;
+}
+textarea{
+  overflow: auto;
+}
+#container {
+  border: solid 3px #474544;
+  max-width: 768px;
+  margin: 60px auto;
+  position: relative;
+}
+form {
+  padding: 37.5px;
+  margin: 50px 0;
+}
+h1 {
+  color: #474544;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 7px;
+  text-align: center;
+  text-transform: uppercase;
+}
+input[type='text'], [type='email'], select, textarea {
+	background: none;
+  border: none;
+	border-bottom: solid 2px #474544;
+	color: #474544;
+	font-size: 22;
+  font-weight: 400;
+  letter-spacing: 1px;
+}
+
+textarea {
+	line-height: 150%;
+	height: 150px;
+	resize: none;
+}
+  input[type='text'], [type='email'], select, textarea {
+    font-size: 0.875em;
+  }
+legend{
+  color: #474544;
+  font-size:22;  
+}
